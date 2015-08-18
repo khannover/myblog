@@ -3,6 +3,6 @@
 
 Blah blubb foo bar!
 
-`` bash
+``` bash
   foo_bar.sh
-``
+```
