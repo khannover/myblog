@@ -1,5 +1,3 @@
-[]()
-
-__k|hannover.de__
+k|hannover.de
 =============
 
