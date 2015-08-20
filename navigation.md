@@ -1,1 +1,1 @@
-[Startseite](/) [Raspberry Pi](raspi.md) [Impressum](impressum.md)
+[Startseite](index.md) [Raspberry Pi](raspi.md) [Impressum](impressum.md)
