@@ -1,5 +1,1 @@
-## Navigation
-
-[Raspberry Pi](raspi.md)
-
-[Impressum](impressum.md)
+[Startseite](/) [Raspberry Pi](raspi.md) [Impressum](impressum.md)
