@@ -31,9 +31,9 @@ Ich habe mich dann für OpenELEC als Mediacenter und Raspbian als Entwicklungsum
 
 Raspbian hingegen ist ein für den Raspberry Pi optimiertes Debian und bringt einen großen Blumenstrauß an Applikationen mit, welche es universell einsetzbar machen. Da mein Pi bekanntlich am Fernseher hängt, bietet es sich für mich an, unter Raspbian mit diversen Emulatoren (SNES, PSX, ...) und nativen Games ein kleines (aber feines?) Spielesystem aufbauen. Aber erstmal zurück zum OpenELEC.
 
-Nach der problemlosen Installation mit BerryBoot startete mein Pi durch ins OpenELEC, wo mich eine schlichte aber schöne Oberfläche begrüßte. Erfreulicherweise lässt sich die Oberfläche problemlos ohne Maus (und zu meiner Überraschung sogar mit der Fernbedienung des TVs) bedienen. [^Kommentar 1]
+Nach der problemlosen Installation mit BerryBoot startete mein Pi durch ins OpenELEC, wo mich eine schlichte aber schöne Oberfläche begrüßte. Erfreulicherweise lässt sich die Oberfläche problemlos ohne Maus (und zu meiner Überraschung sogar mit der Fernbedienung des TVs) bedienen. [^1]
 
-[^Kommentar 1]: Das Feature, welches hierfür verantwortlich ist, nennt sich CEC (Consumer Electronics Control). Siehe http://de.wikipedia.org/wiki/HDMI#Fernbedienungsfunktionen
+[^1]: Das Feature, welches hierfür verantwortlich ist, nennt sich CEC (Consumer Electronics Control). Siehe http://de.wikipedia.org/wiki/HDMI#Fernbedienungsfunktionen
 
 Die Bedienung an sich ist flüssig, aber sobald Menüpunkte aufgerufen werden und Dinge nachgeladen werden müssen, kann es sich schon einige Sekunden (zweistelliger Bereich) hinziehen, bis ein Ergebnis auf dem Bildschirm angezeigt wird. Eine Suche bei Youtube beispielsweise dauert gut und gerne 15-20 Sekunden. Die Wiedergabe von Videos hingegen ist selbst in Full-HD kein Problem für den kleinen Rechner dank Unterstützung durch den Grafikchip.Durch ein wenig Tuning lässt sich hier aber noch etwas optimieren. 
 
