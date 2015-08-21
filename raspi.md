@@ -3,27 +3,6 @@
 
 ***
 
-### (2013/06/24) Rapiro Roboter-Kit für Raspberry Pi
-
-![raspiro](/images/RasPiRo.png)
-
-Bei [ Kickstarter ][rapiro] läuft derzeit ein Projekt zur Finanzierung eines kostengünstigen Roboters, der mit einem Raspberry Pi betrieben wird und mit einem Arduino-kompatiblen Servomotor ausgetattet ist. Mehr dazu auf der verlinkten Kickstarter-Seite.
-
-
-[rapiro]: http://www.kickstarter.com/projects/shota/rapiro-the-humanoid-robot-kit-for-your-raspberry-p/?ref=kicktraq "Raspberry Pi Roboter"
-
-
-***
-
-### (2013/06/05) New Out Of Box Software (NOOBS) hilft Einsteigern beim Installieren eines Betriebssystems
-
-Auf [Raspberry.org][pi_homepage] wurde vor ein paar Tagen [NOOBS][] (New Out Of Box Software) veröffentlicht. Ähnlich wie bei [BerryBoot][] lässt sich NOOBS einfach auf eine SD-Karte entpacken und der Pi kann damit booten. Beim ersten Boot hat man die Wahl zwischen diversen Betriebssystemen, welche man auf die SD-Karte installieren kann. Ein Editor für die config.txt und ein Webbrowser ist ebenfalls bereits enthalten.
-
-[pi_homepage]: www.raspberrypi.org "Homepage Raspberry Pi"
-[noobs]: http://www.raspberrypi.org/archives/4100 "Noobs"
-
-***
-
 ### (2013/05/30) Rasperry Pi als Mediacenter
 
 Ich gehörte zu den ersten, die sich einen [Raspberry Pi] bestellt haben. Nach meinem Umzug verstaubte das gute Stück bisher leider ungenutzt im Keller, bis ich kürzlich wieder darüber gestolpert bin. 
