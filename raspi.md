@@ -18,3 +18,61 @@ Installiert wird die Software auf dem üblichen Wege über apt-get:
 ```bash
 sudo apt-get install ziproxy
 ```
+
+Im Prinzip reicht das bereits aus, um den Pi vom LAN aus als Proxy nutzen zu können.
+
+Über die Config-Datei ``/etc/ziproxy/ziproxy.conf`` kann ziproxy tiefer konfiguiert werden. 
+
+Hier ein paar Optionen, die interessant sein könnten:
+
+- Port auf dem Ziproxy lauscht
+
+```bash
+## Port to listen for proxy connections
+## default: 8080
+# Port = 8080
+```
+
+- User unter dem ziproxy läuft
+
+```bash
+## Run daemon as `RunAsUser` user.
+## Switch from current user (in this case, typically `root`)
+## to a less privileged one, as a security measure.
+##
+## default: unspecified (does not change user)
+# RunAsUser = "ziproxy"
+```
+
+- Logging-Optionen (Debug, Error, Access)
+
+```bash
+## Disabled by default.
+# DebugLog = "/var/log/ziproxy/debug.log"
+
+## Default: undefined (dumps to stderr).
+# ErrorLog = "/var/log/ziproxy/error.log"
+
+## Disabled by default.
+# AccessLog = "/var/log/ziproxy/access.log"
+```
+
+- Authentifizierung für Proxy (empfehlenswert, damit nicht jeder den Proxy nutzen und Schabernack über meine IP treiben kann)
+  - Die Passwort-Datei liegt unter /etc/ziproxy/.htpasswd
+
+```bash
+## Authentication mode to be used for proxy access:
+## 0: none (no authentication required)
+## 1: plain text file
+## 2: SASL (auxprop, see /etc/ziproxy/sasl/ziproxy.conf)
+##
+## Notes:
+## a) SASL support is optional (enabled during compilation time).
+## b) SASL authentication does not require external SASL daemon
+##    configuration/invocation, just Ziproxy's SASL configuration.
+##
+## Default: 0 (no authentication required)
+## See also: AuthPasswdFile, AuthSASLConfPath
+AuthMode = 1
+```
+
