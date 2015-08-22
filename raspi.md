@@ -58,7 +58,7 @@ Hier ein paar Optionen, die interessant sein könnten:
 ```
 
 - Authentifizierung für Proxy (empfehlenswert, damit nicht jeder den Proxy nutzen und Schabernack über meine IP treiben kann)
-  - Die Passwort-Datei liegt unter /etc/ziproxy/.htpasswd
+  - Die Passwort-Datei liegt standardmäßig unter ``/etc/ziproxy/http.passwd``, kann aber über die Option ``AuthPasswdFile`` angepasst werden
 
 ```bash
 ## Authentication mode to be used for proxy access:
@@ -74,5 +74,14 @@ Hier ein paar Optionen, die interessant sein könnten:
 ## Default: 0 (no authentication required)
 ## See also: AuthPasswdFile, AuthSASLConfPath
 AuthMode = 1
+
+## Plain text file containing authentication data.
+## Should contain user:pass pairs, lines no longer than 128 chars.
+## Password is unencrypted.
+## Used only when AuthMode=1
+##
+## Default: (undefined)
+## See also: AuthMode
+AuthPasswdFile = "/etc/ziproxy/http.passwd"
 ```
 
