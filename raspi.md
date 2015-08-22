@@ -57,7 +57,7 @@ Hier ein paar Optionen, die interessant sein könnten:
 # AccessLog = "/var/log/ziproxy/access.log"
 ```
 
-- Authentifizierung für Proxy (empfehlenswert, damit nicht jeder den Proxy nutzen und Schabernack über meine IP treiben kann)
+- Authentifizierung für Proxy (empfehlenswert, wenn der Proxy übers Internet erreichbar sein wird, damit nicht jeder Schabernack über meine IP treiben kann)
   - Die Passwort-Datei liegt standardmäßig unter ``/etc/ziproxy/http.passwd``, kann aber über die Option ``AuthPasswdFile`` angepasst werden
 
 ```bash
